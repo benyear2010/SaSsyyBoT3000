@@ -1,0 +1,47 @@
+style.css
+body {
+  background-color: #1a1a1a;
+  color: #fff;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.chat-container {
+  width: 400px;
+  background: #333;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 0 20px hotpink;
+}
+
+#chatbox {
+  height: 300px;
+  overflow-y: auto;
+  border: 1px solid #555;
+  padding: 10px;
+  margin-bottom: 10px;
+  background-color: #222;
+}
+
+input {
+  width: 70%;
+  padding: 8px;
+  border: none;
+  border-radius: 5px;
+}
+
+button {
+  padding: 8px 12px;
+  background: hotpink;
+  border: none;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.bot {
+  color: hotpink;
+}
